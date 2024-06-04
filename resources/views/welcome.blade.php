@@ -178,25 +178,25 @@
 
           <div class="col-lg-4 col-md-6 content-item">
             <span>01</span>
-            <h4>Lorem Ipsum</h4>
+            <h4>Kopi</h4>
             <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
           </div>
 
           <div class="col-lg-4 col-md-6 content-item">
             <span>02</span>
-            <h4>Repellat Nihil</h4>
+            <h4>Matcha Latte</h4>
             <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
           </div>
 
           <div class="col-lg-4 col-md-6 content-item">
             <span>03</span>
-            <h4> Ad ad velit qui</h4>
+            <h4>Red Velvet</h4>
             <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
           </div>
 
           <div class="col-lg-4 col-md-6 content-item">
             <span>04</span>
-            <h4>Repellendus molestiae</h4>
+            <h4>Cookies and Cream</h4>
             <p>Inventore quo sint a sint rerum. Distinctio blanditiis deserunt quod soluta quod nam mider lando casa</p>
           </div>
 
