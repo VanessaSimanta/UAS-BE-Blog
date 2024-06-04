@@ -178,7 +178,7 @@
 
           <div class="col-lg-4 col-md-6 content-item">
             <span>01</span>
-            <h4>Kopi</h4>
+            <h4>Kopi Inspirasi</h4>
             <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
           </div>
 
@@ -190,7 +190,7 @@
 
           <div class="col-lg-4 col-md-6 content-item">
             <span>03</span>
-            <h4>Red Velvet</h4>
+            <h4>Red Velvet Latte</h4>
             <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
           </div>
 
@@ -202,7 +202,7 @@
 
           <div class="col-lg-4 col-md-6 content-item">
             <span>05</span>
-            <h4>Sapiente Magnam</h4>
+            <h4>Chocolate</h4>
             <p>Vitae dolorem in deleniti ipsum omnis tempore voluptatem. Qui possimus est repellendus est quibusdam</p>
           </div>
 
