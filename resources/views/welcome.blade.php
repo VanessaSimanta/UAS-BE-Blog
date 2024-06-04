@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Green Bootstrap Template - Index</title>
+  <title>Alleyway Muse - Homepage</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -222,7 +222,7 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Services</h2>
+          <h2>Testimonies</h2>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
