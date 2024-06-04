@@ -470,7 +470,7 @@
 
         <div class="section-title">
           <h2>About Us</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>Alleway Muse Coffee was born out of a passion for exceptional coffee and a desire to create a space where people can unwind, connect, and be inspired.</p>
         </div>
 
         <div class="row">
@@ -528,7 +528,7 @@
         </div>
 
       </div>
-    </section><!-- End Team Section -->
+    </section><!-- End About Us Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
