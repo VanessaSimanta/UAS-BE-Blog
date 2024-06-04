@@ -470,7 +470,7 @@
 
         <div class="section-title">
           <h2>About Us</h2>
-          <p>Alleway Muse Coffee was born out of a passion for exceptional coffee and a desire to create a space where people can unwind, connect, and be inspired.</p>
+          <p>Alleway Muse, a unique space where creativity, community, and comfort come together. Located in the heart of the city, Alleway Muse is your go-to destination for inspiration and relaxation..</p>
         </div>
 
         <div class="row">
