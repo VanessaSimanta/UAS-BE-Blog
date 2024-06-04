@@ -602,45 +602,45 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Featured Services
+# Testimonies
 --------------------------------------------------------------*/
-.featured-services {
+.testimonies {
   padding: 20px 0;
 }
 
-.featured-services .icon-box {
+.testimonies .icon-box {
   padding: 20px;
 }
 
-.featured-services .icon-box-bg {
+.testimonies .icon-box-bg {
   background-image: linear-gradient(0deg, #222222 0%, #2f2f2f 50%, #222222 100%);
 }
 
-.featured-services .icon {
+.testimonies .icon {
   margin-bottom: 15px;
 }
 
-.featured-services .icon i {
+.testimonies .icon i {
   color: #5cb874;
   font-size: 42px;
 }
 
-.featured-services .title {
+.testimonies .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-.featured-services .title a {
+.testimonies .title a {
   color: #222222;
   transition: 0.3s;
 }
 
-.featured-services .icon-box:hover .title a {
+.testimonies .icon-box:hover .title a {
   color: #5cb874;
 }
 
-.featured-services .description {
+.testimonies .description {
   line-height: 24px;
   font-size: 14px;
 }
@@ -673,38 +673,38 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Why Us
+# menu
 --------------------------------------------------------------*/
-.why-us {
+.menu {
   padding: 0;
 }
 
-.why-us .row {
+.menu .row {
   overflow: hidden;
 }
 
-.why-us .content-item {
+.menu .content-item {
   padding: 40px;
   border-left: 1px solid #eee;
   border-bottom: 1px solid #eee;
   margin: -1px;
 }
 
-.why-us .content-item span {
+.menu .content-item span {
   display: block;
   font-size: 24px;
   font-weight: 400;
   color: #6ec083;
 }
 
-.why-us .content-item h4 {
+.menu .content-item h4 {
   font-size: 26px;
   font-weight: 300;
   padding: 0;
   margin: 20px 0;
 }
 
-.why-us .content-item p {
+.menu .content-item p {
   color: #aaaaaa;
   font-size: 15px;
   margin: 0;
@@ -712,7 +712,7 @@ section {
 }
 
 @media (max-width: 768px) {
-  .why-us .content-item {
+  .menu .content-item {
     padding: 40px 0;
   }
 }
@@ -932,20 +932,20 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Portfolio
+# YourDrink
 --------------------------------------------------------------*/
-.portfolio .portfolio-item {
+.yourDrink .yourDrink-item {
   margin-bottom: 30px;
 }
 
-.portfolio #portfolio-flters {
+.yourDrink #portfolio-flters {
   padding: 0;
   margin: 0 auto 20px auto;
   list-style: none;
   text-align: center;
 }
 
-.portfolio #portfolio-flters li {
+.yourDrink #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
   padding: 8px 15px 10px 15px;
@@ -959,17 +959,17 @@ section {
   border-radius: 3px;
 }
 
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
+.yourDrink #portfolio-flters li:hover,
+.yourDrink #portfolio-flters li.filter-active {
   color: #fff;
   background: #5cb874;
 }
 
-.portfolio #portfolio-flters li:last-child {
+.yourDrink #portfolio-flters li:last-child {
   margin-right: 0;
 }
 
-.portfolio .portfolio-wrap {
+.yourDrink .yourDrink-wrap {
   transition: 0.3s;
   position: relative;
   overflow: hidden;
@@ -977,7 +977,7 @@ section {
   background: rgba(34, 34, 34, 0.6);
 }
 
-.portfolio .portfolio-wrap::before {
+.yourDrink .yourDrink-wrap::before {
   content: "";
   background: rgba(34, 34, 34, 0.6);
   position: absolute;
@@ -990,11 +990,11 @@ section {
   opacity: 0;
 }
 
-.portfolio .portfolio-wrap img {
+.yourDrink .yourDrink-wrap img {
   transition: all ease-in-out 0.3s;
 }
 
-.portfolio .portfolio-wrap .portfolio-info {
+.yourDrink .yourDrink-wrap .yourDrink-info {
   opacity: 0;
   position: absolute;
   top: 0;
@@ -1010,13 +1010,13 @@ section {
   padding: 20px;
 }
 
-.portfolio .portfolio-wrap .portfolio-info h4 {
+.yourDrink .yourDrink-wrap .yourDrink-info h4 {
   font-size: 20px;
   color: #fff;
   font-weight: 600;
 }
 
-.portfolio .portfolio-wrap .portfolio-info p {
+.yourDrink .yourDrink-wrap .yourDrink-info p {
   color: rgba(255, 255, 255, 0.7);
   font-size: 14px;
   text-transform: uppercase;
@@ -1025,12 +1025,12 @@ section {
   font-style: italic;
 }
 
-.portfolio .portfolio-wrap .portfolio-links {
+.yourDrink .yourDrink-wrap .yourDrink-links {
   text-align: center;
   z-index: 4;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a {
+.yourDrink .yourDrink-wrap .yourDrink-links a {
   color: #fff;
   margin: 0 5px 0 0;
   font-size: 28px;
@@ -1038,39 +1038,39 @@ section {
   transition: 0.3s;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a:hover {
+.yourDrink .yourDrink-wrap .yourDrink-links a:hover {
   color: #6ec083;
 }
 
-.portfolio .portfolio-wrap:hover::before {
+.yourDrink .yourDrink-wrap:hover::before {
   opacity: 1;
 }
 
-.portfolio .portfolio-wrap:hover img {
+.yourDrink .yourDrink-wrap:hover img {
   transform: scale(1.2);
 }
 
-.portfolio .portfolio-wrap:hover .portfolio-info {
+.yourDrink .yourDrink-wrap:hover .yourDrink-info {
   opacity: 1;
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details
+# yourDrink Details
 --------------------------------------------------------------*/
-.portfolio-details {
+.yourDrink-details {
   padding-top: 40px;
 }
 
-.portfolio-details .portfolio-details-slider img {
+.yourDrink-details .yourDrink-details-slider img {
   width: 100%;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination {
+.yourDrink-details .yourDrink-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.yourDrink-details .yourDrink-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -1078,16 +1078,16 @@ section {
   border: 1px solid #5cb874;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.yourDrink-details .yourDrink-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #5cb874;
 }
 
-.portfolio-details .portfolio-info {
+.yourDrink-details .yourDrink-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(34, 34, 34, 0.08);
 }
 
-.portfolio-details .portfolio-info h3 {
+.yourDrink-details .yourDrink-info h3 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -1095,34 +1095,34 @@ section {
   border-bottom: 1px solid #eee;
 }
 
-.portfolio-details .portfolio-info ul {
+.yourDrink-details .yourDrink-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.yourDrink-details .yourDrink-info ul li+li {
   margin-top: 10px;
 }
 
-.portfolio-details .portfolio-description {
+.yourDrink-details .yourDrink-description {
   padding-top: 30px;
 }
 
-.portfolio-details .portfolio-description h2 {
+.yourDrink-details .yourDrink-description h2 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-.portfolio-details .portfolio-description p {
+.yourDrink-details .yourDrink-description p {
   padding: 0;
 }
 
 /*--------------------------------------------------------------
-# Team
+# About Us
 --------------------------------------------------------------*/
-.team .member {
+.aboutUs .member {
   text-align: center;
   margin-bottom: 20px;
   box-shadow: 0px 0px 12px 0px rgba(34, 34, 34, 0.07);
@@ -1130,45 +1130,45 @@ section {
   background: #fff;
 }
 
-.team .member img {
+.aboutUs .member img {
   max-width: 60%;
   border-radius: 50%;
   margin: 0 0 30px 0;
 }
 
-.team .member h4 {
+.aboutUs .member h4 {
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
 }
 
-.team .member span {
+.aboutUs .member span {
   font-style: italic;
   display: block;
   font-size: 13px;
 }
 
-.team .member p {
+.aboutUs .member p {
   padding-top: 10px;
   font-size: 14px;
   font-style: italic;
   color: #aaaaaa;
 }
 
-.team .member .social {
+.aboutUs .member .social {
   margin-top: 15px;
 }
 
-.team .member .social a {
+.aboutUs .member .social a {
   color: #919191;
   transition: 0.3s;
 }
 
-.team .member .social a:hover {
+.aboutUs .member .social a:hover {
   color: #5cb874;
 }
 
-.team .member .social i {
+.aboutUs .member .social i {
   font-size: 18px;
   margin: 0 2px;
 }

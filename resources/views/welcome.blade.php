@@ -67,10 +67,10 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
     
           <li><a class="nav-link scrollto" href="#menu">Menu</a></li>
-          <li><a class="nav-link scrollto" href="#testi">Testimonies</a></li>
-          <li><a class="nav-link scrollto " href="#make">Make Your Own Drink</a></li>
-          <li><a class="nav-link scrollto" href="#about">About Us</a></li>
-          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+          <li><a class="nav-link scrollto" href="#testimonies">Testimonies</a></li>
+          <li><a class="nav-link scrollto " href="#yourDrink">Make Your Own Drink</a></li>
+          <li><a class="nav-link scrollto" href="#aboutUs">About Us</a></li>
+          <li><a class="getstarted scrollto" href="#menu">Get Started</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -134,8 +134,8 @@
 
   <main id="main">
 
-    <!-- ======= Featured Services Section ======= -->
-    <section id="featured-services" class="featured-services section-bg">
+    <!-- ======= testimonies ======= -->
+    <section id="testimonies" class="testimonies">
       <div class="container">
 
         <div class="row no-gutters">
@@ -163,46 +163,16 @@
         </div>
 
       </div>
-    </section><!-- End Featured Services Section -->
+    </section><!-- End testimonies -->
 
-    <!-- ======= About Us Section ======= -->
-    <section id="about" class="about">
+    <!-- ======= Menu Section ======= -->
+    <section id="menu" class="menu">
       <div class="container">
-
-        <div class="section-title">
-          <h2>About Us</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      <br>
+      <br>
+      <div class="section-title">
+          <h2>Menu</h2>
         </div>
-
-        <div class="row">
-          <div class="col-lg-6 order-1 order-lg-2">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-            </ul>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
-            </p>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End About Us Section -->
-
-    <!-- ======= Why Us Section ======= -->
-    <section id="why-us" class="why-us">
-      <div class="container">
 
         <div class="row no-gutters">
 
@@ -245,33 +215,7 @@
         </div>
 
       </div>
-    </section><!-- End Why Us Section -->
-
-    <!-- ======= Our Clients Section ======= -->
-    <section id="clients" class="clients">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Our Clients</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="clients-slider swiper">
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section><!-- End Our Clients Section -->
+    </section><!-- End Menu Section -->
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
@@ -366,29 +310,13 @@
       </div>
     </section><!-- End Services Section -->
 
-    <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-lg-9 text-center text-lg-start">
-            <h3>Call To Action</h3>
-            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-          <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Cta Section -->
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
+    <section id="yourDrink" class="yourDrink">
       <div class="container">
 
         <div class="section-title">
-          <h2>Portfolio</h2>
+          <h2>Make Your Own Drink</h2>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
@@ -536,12 +464,12 @@
       </div>
     </section><!-- End Portfolio Section -->
 
-    <!-- ======= Team Section ======= -->
-    <section id="team" class="team section-bg">
+    <!-- ======= About Us Section ======= -->
+    <section id="aboutUs" class="aboutUs section-bg">
       <div class="container">
 
         <div class="section-title">
-          <h2>Team</h2>
+          <h2>About Us</h2>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
