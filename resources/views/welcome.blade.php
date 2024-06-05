@@ -69,7 +69,7 @@
           <li><a class="nav-link scrollto" href="#menu">Menu</a></li>
           <li><a class="nav-link scrollto" href="#testimonies">Testimonies</a></li>
           <li><a class="nav-link scrollto " href="#yourDrink">Make Your Own Drink</a></li>
-          <li><a class="nav-link scrollto" href="#aboutUs">About Us</a></li>
+          <li><a class="nav-link scrollto" href="#aboutUs">AboutUs</a></li>
           <li><a class="getstarted scrollto" href="#menu">Get Started</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
