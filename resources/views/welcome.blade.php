@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Green Bootstrap Template - Index</title>
+  <title>Alleyway Muse - Homepage</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -222,7 +222,7 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Services</h2>
+          <h2>Testimonies</h2>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
@@ -470,17 +470,17 @@
 
         <div class="section-title">
           <h2>About Us</h2>
-          <p>Alleway Muse Coffee was born out of a passion for exceptional coffee and a desire to create a space where people can unwind, connect, and be inspired.</p>
+          <p>Alleyway Muse, a unique space where creativity, community, and comfort come together. Located in the heart of the city, Alleway Muse is your go-to destination for inspiration and relaxation..</p>
         </div>
 
         <div class="row">
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <img src="assets/img/team/team-1.jpg" alt="">
-              <h4>Walter White</h4>
-              <span>Chief Executive Officer</span>
+              <h4>Aldian Yohanes</h4>
+              <span>Founder</span>
               <p>
-                Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut
+                Alleyway Muse
               </p>
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
@@ -494,10 +494,10 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <img src="assets/img/team/team-2.jpg" alt="">
-              <h4>Sarah Jhinson</h4>
+              <h4>Aldian</h4>
               <span>Product Manager</span>
               <p>
-                Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
+                Muhammad Aldian Foundernya
               </p>
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
@@ -511,7 +511,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <img src="assets/img/team/team-3.jpg" alt="">
-              <h4>William Anderson</h4>
+              <h4>Yohanes</h4>
               <span>CTO</span>
               <p>
                 Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
@@ -605,8 +605,8 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
-      <h3>Green</h3>
-      <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+      <h3>Alleway Muse</h3>
+      <p>A perfect cup of coffee should embody the darkness of the abyss, the vigor of a warrior's spirit, and the sweetness of a lover's embrace</p>
       <div class="social-links">
         <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -615,14 +615,13 @@
         <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       </div>
       <div class="copyright">
-        &copy; Copyright <strong><span>Green</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Alleway Muse @ 2024 </span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/green-free-one-page-bootstrap-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
   </footer><!-- End Footer -->
