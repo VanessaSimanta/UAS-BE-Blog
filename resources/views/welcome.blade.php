@@ -466,17 +466,17 @@
 
         <div class="section-title">
           <h2>About Us</h2>
-          <p>Alleway Muse, a unique space where creativity, community, and comfort come together. Located in the heart of the city, Alleway Muse is your go-to destination for inspiration and relaxation..</p>
+          <p>Alleyway Muse, a unique space where creativity, community, and comfort come together. Located in the heart of the city, Alleway Muse is your go-to destination for inspiration and relaxation..</p>
         </div>
 
         <div class="row">
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <img src="assets/img/team/team-1.jpg" alt="">
-              <h4>Walter White</h4>
-              <span>Chief Executive Officer</span>
+              <h4>Aldian Yohanes</h4>
+              <span>Founder</span>
               <p>
-                Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut
+                Abang-abang jualan Alleyway Coffee di Untar 
               </p>
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
@@ -490,10 +490,10 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <img src="assets/img/team/team-2.jpg" alt="">
-              <h4>Sarah Jhinson</h4>
-              <span>Product Manager</span>
+              <h4>Jenny</h4>
+              <span>Member</span>
               <p>
-                Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
+              Mengklaim Gelar Sarjana dalam Humor, Magister dalam Mengeluh
               </p>
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
@@ -507,10 +507,61 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <img src="assets/img/team/team-3.jpg" alt="">
-              <h4>William Anderson</h4>
-              <span>CTO</span>
+              <h4>Fortuna Arleo Sahara</h4>
+              <span>Member</span>
               <p>
-                Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
+              Mengklaim Gelar Sarjana dalam Humor, Magister dalam Mengeluh
+              </p>
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="assets/img/team/team-2.jpg" alt="">
+              <h4>Love Hillary Swigo</h4>
+              <span>Member</span>
+              <p>
+              Mengklaim Gelar Sarjana dalam Humor, Magister dalam Mengeluh
+              </p>
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="assets/img/team/team-2.jpg" alt="">
+              <h4>Vanessa Simanta</h4>
+              <span>Member</span>
+              <p>
+              Mengklaim Gelar Sarjana dalam Humor, Magister dalam Mengeluh
+              </p>
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="assets/img/team/team-2.jpg" alt="">
+              <h4>Amita Ratu Osswald</h4>
+              <span>Member</span>
+              <p>
+              Mengklaim Gelar Sarjana dalam Humor, Magister dalam Mengeluh
               </p>
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
