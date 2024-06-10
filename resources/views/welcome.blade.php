@@ -595,7 +595,7 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
-      <h3>Alleway Muse</h3>
+      <h3>Alleyway Muse</h3>
       <p>A perfect cup of coffee should embody the darkness of the abyss, the vigor of a warrior's spirit, and the sweetness of a lover's embrace</p>
       <div class="social-links">
         <a href="https://www.instagram.com/alleyway.muse?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="instagram"><i class="bx bxl-instagram"></i></a>
