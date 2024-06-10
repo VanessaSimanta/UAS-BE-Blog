@@ -173,39 +173,39 @@
         <div class="row no-gutters">
 
           <div class="col-lg-4 col-md-6 content-item">
-            <span>01</span>
             <h4>Kopi Inspirasi</h4>
-            <p>Deskripsi kopi inspirasi, apa specialitnya</p>
+            <img src="assets\img\menu\menu-1.jpg" class="img-fluid" alt="">
+            <p>Kopi Inspirasi terbuat dari biji kopi arabica pilihan yang dipadukan dengan susu murni sehingga menghasilkan rasa yang lezat dan cocok untuk dikonsumsi setiap harinya </p>
           </div>
 
           <div class="col-lg-4 col-md-6 content-item">
-            <span>02</span>
             <h4>Matcha Latte</h4>
-            <p>Deskripsi kopi inspirasi, apa specialitnya</p>
+            <img src="assets\img\menu\menu-2.jpg" class="img-fluid" alt="">
+            <p>Matcha yang memiliki rasa authentic khas Jepang dipadukan dengan susu murni sehingga menghasilkan perpaduan rasa manis dan pahit yang menagih</p>
           </div>
 
           <div class="col-lg-4 col-md-6 content-item">
-            <span>03</span>
             <h4>Red Velvet Latte</h4>
-            <p>Deskripsi kopi inspirasi, apa specialitnya</p>
+            <img src="assets\img\menu\menu-3.jpg" class="img-fluid" alt="">
+            <p>Rasa dari red velvet yang kental dipadukan dengan susu murni sehingga menghasilkan tekstur yang ringan dengan rasa manis yang pas dimulut</p>
           </div>
 
           <div class="col-lg-4 col-md-6 content-item">
-            <span>04</span>
             <h4>Cookies and Cream</h4>
-            <p>Deskripsi kopi inspirasi, apa specialitnya</p>
+            <img src="assets\img\menu\menu-4.jpg" class="img-fluid" alt="">
+            <p>Cookies kesayangan semua orang dipadukan dengan cream dan susu menghasilkan rasa yang akan digemari oleh seluruh kalangan</p>
           </div>
 
           <div class="col-lg-4 col-md-6 content-item">
-            <span>05</span>
             <h4>Choco Malt</h4>
-            <p>Deskripsi kopi inspirasi, apa specialitnya</p>
+            <img src="assets\img\menu\menu-5.webp" class="img-fluid" alt="">
+            <p>Perpaduan antara coklat dan susu menghasilkan tekstur yang kental dan lezat cocok untuk seluruh kalangan usia</p>
           </div>
 
           <div class="col-lg-4 col-md-6 content-item">
-            <span>06</span>
             <h4>Caramel Machiato</h4>
-            <p>Deskripsi kopi inspirasi, apa specialitnya</p>
+            <img src="assets\img\menu\menu-6.jpg" class="img-fluid" alt="">
+            <p>Cocok untuk pecinta manis dengan perpaduan caramel, susu, dan kopi yang lezat dimulut</p>
           </div>
 
         </div>
