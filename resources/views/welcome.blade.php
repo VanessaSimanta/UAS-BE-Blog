@@ -87,7 +87,7 @@
           <div class="carousel-container">
             <div class="container">
               <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Alleyway Muse</span></h2>
-              <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+              <p class="animate__animated animate__fadeInUp">Make your day beautiful with some coffee at Alleyway Muse.</p>
               <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
             </div>
           </div>
@@ -97,8 +97,8 @@
         <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg)">
           <div class="carousel-container">
             <div class="container">
-              <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
-              <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+              <h2 class="animate__animated animate__fadeInDown">Check out our menu! What would be your favorite?</h2>
+              <p class="animate__animated animate__fadeInUp">At Alleyway Muse, our dream is to serve high quality coffee, made with the freshest local ingredients to customers across Indonesia, and the rest of the world. </p>
               <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
             </div>
           </div>
@@ -108,8 +108,8 @@
         <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg)">
           <div class="carousel-container">
             <div class="container">
-              <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
-              <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+              <h2 class="animate__animated animate__fadeInDown">Not a fan of coffee?</h2>
+              <p class="animate__animated animate__fadeInUp">Don't worry, we also have non-coffee menus too! Such as matcha latte, red velvet latte, and so many more! Go check it out now!.</p>
               <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
             </div>
           </div>
@@ -173,39 +173,39 @@
         <div class="row no-gutters">
 
           <div class="col-lg-4 col-md-6 content-item">
+            <span>01</span>
             <h4>Kopi Inspirasi</h4>
-            <img src="assets\img\menu\menu-1.jpg" class="img-fluid" alt="">
-            <p>Kopi Inspirasi terbuat dari biji kopi arabica pilihan yang dipadukan dengan susu murni sehingga menghasilkan rasa yang lezat dan cocok untuk dikonsumsi setiap harinya </p>
+            <p>Deskripsi kopi inspirasi, apa specialitnya</p>
           </div>
 
           <div class="col-lg-4 col-md-6 content-item">
+            <span>02</span>
             <h4>Matcha Latte</h4>
-            <img src="assets\img\menu\menu-2.jpg" class="img-fluid" alt="">
-            <p>Matcha yang memiliki rasa authentic khas Jepang dipadukan dengan susu murni sehingga menghasilkan perpaduan rasa manis dan pahit yang menagih</p>
+            <p>Deskripsi kopi inspirasi, apa specialitnya</p>
           </div>
 
           <div class="col-lg-4 col-md-6 content-item">
+            <span>03</span>
             <h4>Red Velvet Latte</h4>
-            <img src="assets\img\menu\menu-3.jpg" class="img-fluid" alt="">
-            <p>Rasa dari red velvet yang kental dipadukan dengan susu murni sehingga menghasilkan tekstur yang ringan dengan rasa manis yang pas dimulut</p>
+            <p>Deskripsi kopi inspirasi, apa specialitnya</p>
           </div>
 
           <div class="col-lg-4 col-md-6 content-item">
+            <span>04</span>
             <h4>Cookies and Cream</h4>
-            <img src="assets\img\menu\menu-4.jpg" class="img-fluid" alt="">
-            <p>Cookies kesayangan semua orang dipadukan dengan cream dan susu menghasilkan rasa yang akan digemari oleh seluruh kalangan</p>
+            <p>Deskripsi kopi inspirasi, apa specialitnya</p>
           </div>
 
           <div class="col-lg-4 col-md-6 content-item">
+            <span>05</span>
             <h4>Choco Malt</h4>
-            <img src="assets\img\menu\menu-5.jpg" class="img-fluid" alt="">
-            <p>Perpaduan antara coklat dan susu menghasilkan tekstur yang kental dan lezat cocok untuk seluruh kalangan usia</p>
+            <p>Deskripsi kopi inspirasi, apa specialitnya</p>
           </div>
 
           <div class="col-lg-4 col-md-6 content-item">
+            <span>06</span>
             <h4>Caramel Machiato</h4>
-            <img src="assets\img\menu\menu-6.jpg" class="img-fluid" alt="">
-            <p>Cocok untuk pecinta manis dengan perpaduan caramel, susu, dan kopi yang lezat dimulut</p>
+            <p>Deskripsi kopi inspirasi, apa specialitnya</p>
           </div>
 
         </div>
