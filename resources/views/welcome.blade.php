@@ -472,7 +472,7 @@
         <div class="row">
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
-              <img src="assets/img/team/team-1.jpg" alt="">
+              <img src="assets/img/team/member-1.jpg" alt="">
               <h4>Aldian Yohanes</h4>
               <span>Founder</span>
               <p>
@@ -489,7 +489,7 @@
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
-              <img src="assets/img/team/team-2.jpg" alt="">
+              <img src="assets/img/team/member-5.jpg" alt="">
               <h4>Jenny</h4>
               <span>Member</span>
               <p>
@@ -506,7 +506,7 @@
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
-              <img src="assets/img/team/team-3.jpg" alt="">
+              <img src="assets/img/team/member-22.jpg" alt="">
               <h4>Fortuna Arleo Sahara</h4>
               <span>Member</span>
               <p>
@@ -523,7 +523,7 @@
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
-              <img src="assets/img/team/team-2.jpg" alt="">
+              <img src="assets/img/team/member-3.jpg" alt="">
               <h4>Love Hillary Swigo</h4>
               <span>Member</span>
               <p>
@@ -540,7 +540,7 @@
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
-              <img src="assets/img/team/team-2.jpg" alt="">
+              <img src="assets/img/team/member-6.jpg" alt="">
               <h4>Vanessa Simanta</h4>
               <span>Member</span>
               <p>
@@ -557,7 +557,7 @@
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
-              <img src="assets/img/team/team-2.jpg" alt="">
+              <img src="assets/img/team/member-4.jpg" alt="">
               <h4>Amita Ratu Osswald</h4>
               <span>Member</span>
               <p>
