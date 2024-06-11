@@ -601,6 +601,7 @@ section {
   color: #919191;
 }
 
+
 /*--------------------------------------------------------------
 # Testimonies
 --------------------------------------------------------------*/
@@ -699,15 +700,17 @@ section {
 
 .menu .content-item h4 {
   font-size: 26px;
-  font-weight: 300;
+  font-weight: bold;
+  text-align: center;
   padding: 0;
   margin: 20px 0;
 }
 
 .menu .content-item p {
-  color: #aaaaaa;
+  color: #636363;
   font-size: 15px;
-  margin: 0;
+  text-align: justify;
+  margin: 20px 0;
   padding: 0;
 }
 

@@ -83,33 +83,33 @@
       <div class="carousel-inner" role="listbox">
 
         <!-- Slide 1 -->
-        <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg)">
+        <div class="carousel-item active" style="background-image: url(assets/img/slide/customer.jpeg)">
           <div class="carousel-container">
             <div class="container">
               <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Alleyway Muse</span></h2>
-              <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+              <p class="animate__animated animate__fadeInUp">Make your day beautiful with some coffee at Alleyway Muse.</p>
               <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
             </div>
           </div>
         </div>
 
         <!-- Slide 2 -->
-        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg)">
+        <div class="carousel-item" style="background-image: url(assets/img/slide/coffee.jpeg)">
           <div class="carousel-container">
             <div class="container">
-              <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
-              <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+              <h2 class="animate__animated animate__fadeInDown">Check out our menu! What would be your favorite?</h2>
+              <p class="animate__animated animate__fadeInUp">At Alleyway Muse, our dream is to serve high quality coffee, made with the freshest local ingredients to customers across Indonesia, and the rest of the world. </p>
               <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
             </div>
           </div>
         </div>
 
         <!-- Slide 3 -->
-        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg)">
+        <div class="carousel-item" style="background-image: url(assets/img/slide/noncoffee.jpeg)">
           <div class="carousel-container">
             <div class="container">
-              <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
-              <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+              <h2 class="animate__animated animate__fadeInDown">Not a fan of coffee?</h2>
+              <p class="animate__animated animate__fadeInUp">Don't worry, we also have non-coffee menus too! Such as matcha latte, red velvet latte, and so many more! Go check it out now!.</p>
               <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
             </div>
           </div>
@@ -173,39 +173,39 @@
         <div class="row no-gutters">
 
           <div class="col-lg-4 col-md-6 content-item">
-            <span>01</span>
             <h4>Kopi Inspirasi</h4>
-            <p>Deskripsi kopi inspirasi, apa specialitnya</p>
+            <img src="assets\img\menu\menu-1.jpg" class="img-fluid" alt="">
+            <p>Kopi Inspirasi terbuat dari biji kopi arabica pilihan yang dipadukan dengan susu murni sehingga menghasilkan rasa yang lezat dan cocok untuk dikonsumsi setiap harinya </p>
           </div>
 
           <div class="col-lg-4 col-md-6 content-item">
-            <span>02</span>
             <h4>Matcha Latte</h4>
-            <p>Deskripsi kopi inspirasi, apa specialitnya</p>
+            <img src="assets\img\menu\menu-2.jpg" class="img-fluid" alt="">
+            <p>Matcha yang memiliki rasa authentic khas Jepang dipadukan dengan susu murni sehingga menghasilkan perpaduan rasa manis dan pahit yang menagih</p>
           </div>
 
           <div class="col-lg-4 col-md-6 content-item">
-            <span>03</span>
             <h4>Red Velvet Latte</h4>
-            <p>Deskripsi kopi inspirasi, apa specialitnya</p>
+            <img src="assets\img\menu\menu-3.jpg" class="img-fluid" alt="">
+            <p>Rasa dari red velvet yang kental dipadukan dengan susu murni sehingga menghasilkan tekstur yang ringan dengan rasa manis yang pas dimulut</p>
           </div>
 
           <div class="col-lg-4 col-md-6 content-item">
-            <span>04</span>
             <h4>Cookies and Cream</h4>
-            <p>Deskripsi kopi inspirasi, apa specialitnya</p>
+            <img src="assets\img\menu\menu-4.jpg" class="img-fluid" alt="">
+            <p>Cookies kesayangan semua orang dipadukan dengan cream dan susu menghasilkan rasa yang akan digemari oleh seluruh kalangan</p>
           </div>
 
           <div class="col-lg-4 col-md-6 content-item">
-            <span>05</span>
             <h4>Choco Malt</h4>
-            <p>Deskripsi kopi inspirasi, apa specialitnya</p>
+            <img src="assets\img\menu\menu-5.webp" class="img-fluid" alt="">
+            <p>Perpaduan antara coklat dan susu menghasilkan tekstur yang kental dan lezat cocok untuk seluruh kalangan usia</p>
           </div>
 
           <div class="col-lg-4 col-md-6 content-item">
-            <span>06</span>
             <h4>Caramel Machiato</h4>
-            <p>Deskripsi kopi inspirasi, apa specialitnya</p>
+            <img src="assets\img\menu\menu-6.jpg" class="img-fluid" alt="">
+            <p>Cocok untuk pecinta manis dengan perpaduan caramel, susu, dan kopi yang lezat dimulut</p>
           </div>
 
         </div>
@@ -466,17 +466,17 @@
 
         <div class="section-title">
           <h2>About Us</h2>
-          <p>Alleway Muse, a unique space where creativity, community, and comfort come together. Located in the heart of the city, Alleway Muse is your go-to destination for inspiration and relaxation..</p>
+          <p>Alleyway Muse, a unique space where creativity, community, and comfort come together. Located in the heart of the city, Alleway Muse is your go-to destination for inspiration and relaxation..</p>
         </div>
 
         <div class="row">
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
-              <img src="assets/img/team/team-1.jpg" alt="">
-              <h4>Walter White</h4>
-              <span>Chief Executive Officer</span>
+              <img src="assets/img/team/member-1.jpg" alt="">
+              <h4>Aldian Yohanes</h4>
+              <span>Founder</span>
               <p>
-                Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut
+                Abang-abang jualan Alleyway Coffee di Untar 
               </p>
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
@@ -489,11 +489,11 @@
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
-              <img src="assets/img/team/team-2.jpg" alt="">
-              <h4>Sarah Jhinson</h4>
-              <span>Product Manager</span>
+              <img src="assets/img/team/member-5.jpg" alt="">
+              <h4>Jenny</h4>
+              <span>Member</span>
               <p>
-                Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
+              Mengklaim Gelar Sarjana dalam Humor, Magister dalam Mengeluh
               </p>
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
@@ -506,11 +506,62 @@
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
-              <img src="assets/img/team/team-3.jpg" alt="">
-              <h4>William Anderson</h4>
-              <span>CTO</span>
+              <img src="assets/img/team/member-22.jpg" alt="">
+              <h4>Fortuna Arleo Sahara</h4>
+              <span>Member</span>
               <p>
-                Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
+              Mengklaim Gelar Sarjana dalam Humor, Magister dalam Mengeluh
+              </p>
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="assets/img/team/member-3.jpg" alt="">
+              <h4>Love Hillary Swigo</h4>
+              <span>Member</span>
+              <p>
+              Mengklaim Gelar Sarjana dalam Humor, Magister dalam Mengeluh
+              </p>
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="assets/img/team/member-6.jpg" alt="">
+              <h4>Vanessa Simanta</h4>
+              <span>Member</span>
+              <p>
+              Mengklaim Gelar Sarjana dalam Humor, Magister dalam Mengeluh
+              </p>
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="assets/img/team/member-4.jpg" alt="">
+              <h4>Amita Ratu Osswald</h4>
+              <span>Member</span>
+              <p>
+              Mengklaim Gelar Sarjana dalam Humor, Magister dalam Mengeluh
               </p>
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
@@ -599,7 +650,7 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
-      <h3>Alleway Muse</h3>
+      <h3>Alleyway Muse</h3>
       <p>A perfect cup of coffee should embody the darkness of the abyss, the vigor of a warrior's spirit, and the sweetness of a lover's embrace</p>
       <div class="social-links">
         <a href="https://www.instagram.com/alleyway.muse?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="instagram"><i class="bx bxl-instagram"></i></a>
