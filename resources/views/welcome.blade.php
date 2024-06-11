@@ -42,10 +42,15 @@
   <section id="topbar" class="d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-phone-fill phone-icon"></i> +62 815-5528-276
+        <i class="bi bi-phone-fill phone-icon"></i> 
+        @foreach ($data as $row)
+          {{ $row->phone_number }}
+        @endforeach
       </div>
       <div class="social-links d-none d-md-block">
-        <a href="https://www.instagram.com/alleyway.muse?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="instagram"><i class="bi bi-instagram"></i></a>
+      @foreach ($data as $row)
+        <a href="{{ $row->instagram }}" class="instagram"><i class="bi bi-instagram"></i></a>
+      @endforeach
       </div>
     </div>
   </section>
@@ -88,7 +93,7 @@
             <div class="container">
               <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Alleyway Muse</span></h2>
               <p class="animate__animated animate__fadeInUp">Make your day beautiful with some coffee at Alleyway Muse.</p>
-              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+              <a href="#testimonies" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
             </div>
           </div>
         </div>
@@ -99,7 +104,7 @@
             <div class="container">
               <h2 class="animate__animated animate__fadeInDown">Check out our menu! What would be your favorite?</h2>
               <p class="animate__animated animate__fadeInUp">At Alleyway Muse, our dream is to serve high quality coffee, made with the freshest local ingredients to customers across Indonesia, and the rest of the world. </p>
-              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+              <a href="#menu" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
             </div>
           </div>
         </div>
@@ -110,7 +115,7 @@
             <div class="container">
               <h2 class="animate__animated animate__fadeInDown">Not a fan of coffee?</h2>
               <p class="animate__animated animate__fadeInUp">Don't worry, we also have non-coffee menus too! Such as matcha latte, red velvet latte, and so many more! Go check it out now!.</p>
-              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+              <a href="#menu" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
             </div>
           </div>
         </div>
