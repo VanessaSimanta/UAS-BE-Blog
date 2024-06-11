@@ -605,8 +605,9 @@
                 <p>{{ $row->phone_number }}</p>
                 @endforeach
               </div>
-
-              <iframe src= "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10795.727336253556!2d106.78441573243215!3d-6.169079570878263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f65c8572640d%3A0xc0a066d78372614e!2sTarumanagara%20University!5e0!3m2!1sen!2sid!4v1717491625735!5m2!1sen!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              @foreach ($data as $row)
+              <iframe src= "{{ $row->maps }}" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              @endforeach
             </div>
 
           </div>
@@ -653,7 +654,7 @@
       <h3>Alleyway Muse</h3>
       <p>A perfect cup of coffee should embody the darkness of the abyss, the vigor of a warrior's spirit, and the sweetness of a lover's embrace</p>
       <div class="social-links">
-        <a href="https://www.instagram.com/alleyway.muse?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="{{ $row->instagram }}" class="instagram"><i class="bx bxl-instagram"></i></a>
       </div>
     </div>
   </footer><!-- End Footer -->
