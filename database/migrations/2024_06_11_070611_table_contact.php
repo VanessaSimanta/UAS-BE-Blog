@@ -13,10 +13,10 @@ return new class extends Migration
     {
         Schema::create('contact', function (Blueprint $table) {
             $table->integerIncrements('id')->primary();
-            $table->string('location_adreess');
-            $table->string('phone_number');
-            $table->string('maps');
-            $table->string('instagram');
+            $table->string('location_adreess', 500);
+            $table->string('phone_number', 50);
+            $table->string('maps', 500);
+            $table->string('instagram', 500);
         });
     }
 
