@@ -4,11 +4,11 @@ namespace App\Services;
 
 use Illuminate\Support\Facades\DB;
 
-class DataService
+class MenuService
 {
-    public function get_data()
+    public function get_menu()
     {
-        return DB::table('contact')
+        return DB::table('menu')
             ->select('*')
             ->get();
     }

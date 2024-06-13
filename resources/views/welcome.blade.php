@@ -193,44 +193,14 @@
         </div>
 
         <div class="row no-gutters">
-
+        @foreach  ($menu as $row)
           <div class="col-lg-4 col-md-6 content-item">
-            <h4>Kopi Inspirasi</h4>
-            <img src="assets\img\menu\menu-1.jpg" class="img-fluid" alt="">
-            <p>Kopi Inspirasi terbuat dari biji kopi arabica pilihan yang dipadukan dengan susu murni sehingga menghasilkan rasa yang lezat dan cocok untuk dikonsumsi setiap harinya </p>
+            <h4>{{ $row -> header }} </h4>
+            <img src="{{ $row -> img_menu }}" class="img-fluid" alt="">
+            <p>{{ $row-> decs }}
+                </p>
           </div>
-
-          <div class="col-lg-4 col-md-6 content-item">
-            <h4>Matcha Latte</h4>
-            <img src="assets\img\menu\menu-2.jpg" class="img-fluid" alt="">
-            <p>Matcha yang memiliki rasa authentic khas Jepang dipadukan dengan susu murni sehingga menghasilkan perpaduan rasa manis dan pahit yang menagih</p>
-          </div>
-
-          <div class="col-lg-4 col-md-6 content-item">
-            <h4>Red Velvet Latte</h4>
-            <img src="assets\img\menu\menu-3.jpg" class="img-fluid" alt="">
-            <p>Rasa dari red velvet yang kental dipadukan dengan susu murni sehingga menghasilkan tekstur yang ringan dengan rasa manis yang pas dimulut</p>
-          </div>
-
-          <div class="col-lg-4 col-md-6 content-item">
-            <h4>Cookies and Cream</h4>
-            <img src="assets\img\menu\menu-4.jpg" class="img-fluid" alt="">
-            <p>Cookies kesayangan semua orang dipadukan dengan cream dan susu menghasilkan rasa yang akan digemari oleh seluruh kalangan</p>
-          </div>
-
-          <div class="col-lg-4 col-md-6 content-item">
-            <h4>Choco Malt</h4>
-            <img src="assets\img\menu\menu-5.webp" class="img-fluid" alt="">
-            <p>Perpaduan antara coklat dan susu menghasilkan tekstur yang kental dan lezat cocok untuk seluruh kalangan usia</p>
-          </div>
-
-          <div class="col-lg-4 col-md-6 content-item">
-            <h4>Caramel Machiato</h4>
-            <img src="assets\img\menu\menu-6.jpg" class="img-fluid" alt="">
-            <p>Cocok untuk pecinta manis dengan perpaduan caramel, susu, dan kopi yang lezat dimulut</p>
-          </div>
-
-        </div>
+          @endforeach
 
       </div>
     </section><!-- End Menu Section -->
