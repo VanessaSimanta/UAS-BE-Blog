@@ -29,7 +29,7 @@ class DataController extends Controller
     {
         $data = $this->dataServices->get_data();
         $menu = $this->menuServices->get_menu();
-        $AboutUs = $this->aboutUsServices->get_AboutUs();
-        return view('welcome', ['data' => $data, 'menu' => $menu, 'AboutUs' => $AboutUs]);
+        $AboutUs = $this->aboutUsServices->get_about_us();
+        return view('welcome', ['data' => $data, 'menu' => $menu, 'about_us' => $AboutUs]);
     }
 }
