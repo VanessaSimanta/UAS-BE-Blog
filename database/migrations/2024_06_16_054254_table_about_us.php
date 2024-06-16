@@ -11,14 +11,15 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('AboutUs', function (Blueprint $table) {
+        Schema::create('about_us', function (Blueprint $table) {
             $table->integerIncrements('id')->primary();
-            $table->string('title', 50);
-            $table->string('description', 500);
+            $table->string('name', 50);
+            $table->string('role', 50);
+            $table->string('deskripsi', 500);
             $table->string('img_team', 500);
-            
     });
     }
+
     /**
      * Reverse the migrations.
      */
