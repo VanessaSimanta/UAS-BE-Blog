@@ -12,22 +12,24 @@ class DataController extends Controller
 {
     private $dataServices;
     private $menuServices;
-    private $AboutUsServices;
+    private $aboutUsServices;
 
 
-    public function __construct(DataService $dataServices, MenuService $menuServices, AboutUsService  $AboutUsService)
-    {
+    public function __construct(
+        DataService $dataServices,
+        MenuService $menuServices,
+        AboutUsService $AboutUsService
+    ) {
         $this->dataServices = $dataServices;
         $this->menuServices = $menuServices;
-        $this->AboutUsServices = $AboutUsServices;
-
+        $this->aboutUsServices = $AboutUsService;
     }
 
     public function index(Request $req)
     {
         $data = $this->dataServices->get_data();
         $menu = $this->menuServices->get_menu();
-        $AboutUs = $this->AboutUsServices->get_AboutUs();
+        $AboutUs = $this->aboutUsServices->get_AboutUs();
         return view('welcome', ['data' => $data, 'menu' => $menu, 'AboutUs' => $AboutUs]);
     }
 }
