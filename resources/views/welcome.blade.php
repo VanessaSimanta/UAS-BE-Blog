@@ -202,13 +202,29 @@
             </div>
           </div>
 
+          <!-- Non Coffee : Matcha Latte -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-noncoffee">
+            <div class="portfolio-wrap">
+              <img src="assets/img/make-your-own-drink/MatchaLatteA.jpg" class="img-fluid" alt="" width="540" height="540">
+              <div class="portfolio-info">
+                <h4>Matcha Latte</h4>
+                <p><i>vibrant green, creamy, and slightly sweet drink with a unique, earthy flavor</i></p>
+                <div class="portfolio-links">
+                  <a href="assets/img/make-your-own-drink/MatchaLatteA.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Coffee : Caramel Macchiato -->
           <div class="col-lg-4 col-md-6 portfolio-item filter-coffee">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>App</p>
-                <div class="portfolio-links">
+                <h4>Caramel Macchiato</h4>
+                <p><i>sweet and creamy drink with a bold coffee flavor and rich caramel notes</i></p>
+                <divpp class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
@@ -216,42 +232,30 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-noncoffee">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-coffee">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
+          <!-- Non Coffee : Red Velvet -->
           <div class="col-lg-4 col-md-6 portfolio-item filter-noncoffee">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Card 1</h4>
-                <p>Card</p>
+                <h4>Red Velvet</h4>
+                <p><i>comforting drink that tastes like a liquid version of red velvet cake</i></p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Coffee : Mochaccino -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-coffee">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Mochaccino</h4>
+                <p><i>rich, creamy drink with the perfect blend of coffee and chocolate flavors</i></p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
