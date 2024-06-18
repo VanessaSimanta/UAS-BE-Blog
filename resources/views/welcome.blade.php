@@ -369,14 +369,13 @@
         </div>
 
         <div class="row">
-          @foreach ($about_us as $row)
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
-              <img src="{{ $row -> img_team }}" class="img-member1" alt="">
-              <h4>{{ $row -> name}}</h4>
-              <span>{{ $row -> role}}</span>
+              <img src="assets/img/team/member-1.jpg" alt="">
+              <h4>Aldian Yohanes</h4>
+              <span>Founder</span>
               <p>
-                {{ $row -> deskripsi }}
+                Abang-abang jualan Alleyway Coffee di Untar 
               </p>
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
@@ -386,16 +385,14 @@
               </div>
             </div>
           </div>
-          @endforeach
 
-          @foreach ($about_us as $row)
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
-              <img src="{{ $row -> img_team }}" class="img-member-2" alt="">
-              <h4>{{ $row -> name }}</h4>
-              <span>{{ $row -> role }}</span>
+              <img src="assets/img/team/member-5.jpg" alt="">
+              <h4>Jenny</h4>
+              <span>Member</span>
               <p>
-              {{ $row -> deskripsi }}
+              Mengklaim Gelar Sarjana dalam Humor, Magister dalam Mengeluh
               </p>
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
@@ -405,16 +402,14 @@
               </div>
             </div>
           </div>
-          @endforeach
 
-          @foreach ($about_us as $row)
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
-              <img src="{{ $row -> img_team }}" class="img-member-22" alt="">
-              <h4>{{ $row -> name }}</h4>
-              <span>{{ $row -> role }}</span>
+              <img src="assets/img/team/member-22.jpg" alt="">
+              <h4>Fortuna Arleo Sahara</h4>
+              <span>Member</span>
               <p>
-              {{ $row -> deskripsi}}
+              Mengklaim Gelar Sarjana dalam Humor, Magister dalam Mengeluh
               </p>
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
@@ -424,9 +419,7 @@
               </div>
             </div>
           </div>
-          @endforeach
 
-          @foreach ($about_us as $row)
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <img src="assets/img/team/member-3.jpg" alt="">
