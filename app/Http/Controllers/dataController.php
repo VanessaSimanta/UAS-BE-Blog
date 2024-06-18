@@ -3,38 +3,21 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Services\DataService;
-use App\Services\MenuService;
-use App\Services\AboutUsService;
-use App\Services\HomeService;
+use App\Models\contact;
+use App\Models\menu;
+use App\Models\AboutUs;
+use App\Models\home;
 
 
 class DataController extends Controller
 {
-    private $dataServices;
-    private $menuServices;
-    private $aboutUsServices;
-    private $homeServices;
-
-
-    public function __construct(
-        DataService $dataServices,
-        MenuService $menuServices,
-        AboutUsService $AboutUsService,
-        HomeService $homeServices
-    ) {
-        $this->dataServices = $dataServices;
-        $this->menuServices = $menuServices;
-        $this->aboutUsServices = $AboutUsService;
-        $this->homeServices = $homeServices;
-    }
-
     public function index(Request $req)
     {
-        $data = $this->dataServices->get_data();
-        $menu = $this->menuServices->get_menu();
-        $AboutUs = $this->aboutUsServices->get_about_us();
-        $home = $this->homeServices->get_home();
+        $data = contact::all();
+        $menu = menu::all();
+        $AboutUs = AboutUs::all();
+        $home = home::all();
+        
         return view('welcome', ['data' => $data, 'menu' => $menu, 'about_us' => $AboutUs, 'home' => $home]);
     }
 }
