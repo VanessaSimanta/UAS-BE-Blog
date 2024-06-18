@@ -168,7 +168,7 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="icon-box">
-            <h4 class="title"><a href="">Steven Sanjaya</a></h4>
+            <h4 class="title"><a href="">Steven Antonio</a></h4>
               <div class = "rating">
                 <i class="bi bi-star-fill"></i>
                 <i class="bi bi-star-fill"></i>
