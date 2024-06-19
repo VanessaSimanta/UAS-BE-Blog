@@ -20,4 +20,20 @@ class DataController extends Controller
         
         return view('welcome', ['data' => $data, 'menu' => $menu, 'about_us' => $AboutUs, 'home' => $home]);
     }
+
+    public function getKopiInspirasi(Request $req)
+    {
+        $data = contact::all();
+        return view('make-your-own-drink/kopiInspirasi', ['data' => $data]);
+    }
+
+    public function getMatchaLatte(Request $req)
+    {
+        return view('make-your-own-drink/matchaLatte');
+    }
+
+    public function getCaramelMacchiato(Request $req)
+    {
+        return view('make-your-own-drink/caramelMacchiato');
+    }
 }
