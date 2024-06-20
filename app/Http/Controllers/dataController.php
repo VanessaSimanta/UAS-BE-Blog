@@ -3,20 +3,23 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Services\DataService;
+use App\Models\contact;
+use App\Models\menu;
+use App\Models\AboutUs;
+use App\Models\home;
+use App\Models\testimonies;
+
 
 class DataController extends Controller
 {
-    private $dataServices;
-
-    public function __construct(DataService $dataServices)
-    {
-        $this->dataServices = $dataServices;
-    }
-
     public function index(Request $req)
     {
-        $data = $this->dataServices->get_data();
-        return view('welcome', ['data' => $data]);
+        $data = contact::all();
+        $menu = menu::all();
+        $AboutUs = AboutUs::all();
+        $home = home::all();
+        $testimonies = testimonies::all();
+        
+        return view('welcome', ['data' => $data, 'menu' => $menu, 'about_us' => $AboutUs, 'home' => $home, 'testimonies' => $testimonies]);
     }
 }
