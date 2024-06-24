@@ -284,120 +284,35 @@
 
     <!-- ======= About Us Section ======= -->
     <section id="aboutUs" class="aboutUs section-bg">
-      <div class="container">
+  <div class="container">
 
-        <div class="section-title">
-          <h2>About Us</h2>
-          <p>Alleyway Muse, a unique space where creativity, community, and comfort come together. Located in the heart of the city, Alleway Muse is your go-to destination for inspiration and relaxation..</p>
+    <div class="section-title">
+      <h2>About Us</h2>
+      <p>Alleyway Muse, a unique space where creativity, community, and comfort come together. Located in the heart of the city, Alleyway Muse is your go-to destination for inspiration and relaxation.</p>
+    </div>
+    
+    <div class="row">
+      @foreach ($about_us as $row)
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+        <div class="member">
+          <img src="{{ $row->img_team }}" alt="">
+          <h4>{{ $row->name }}</h4>
+          <span>{{ $row->role }}</span>
+          <p>{{ $row->deskripsi }}</p>
+          <div class="social">
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
         </div>
-
-        <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <img src="assets/img/team/member-1.jpg" alt="">
-              <h4>Aldian Yohanes</h4>
-              <span>Founder</span>
-              <p>
-                Abang-abang jualan Alleyway Coffee di Untar 
-              </p>
-              <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <img src="assets/img/team/member-5.jpg" alt="">
-              <h4>Jenny</h4>
-              <span>Member</span>
-              <p>
-              Mengklaim Gelar Sarjana dalam Humor, Magister dalam Mengeluh
-              </p>
-              <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <img src="assets/img/team/member-22.jpg" alt="">
-              <h4>Fortuna Arleo Sahara</h4>
-              <span>Member</span>
-              <p>
-              Mengklaim Gelar Sarjana dalam Humor, Magister dalam Mengeluh
-              </p>
-              <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <img src="assets/img/team/member-3.jpg" alt="">
-              <h4>Love Hillary Swigo</h4>
-              <span>Member</span>
-              <p>
-              Mengklaim Gelar Sarjana dalam Humor, Magister dalam Mengeluh
-              </p>
-              <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <img src="assets/img/team/member-6.jpg" alt="">
-              <h4>Vanessa Simanta</h4>
-              <span>Member</span>
-              <p>
-              Mengklaim Gelar Sarjana dalam Humor, Magister dalam Mengeluh
-              </p>
-              <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <img src="assets/img/team/member-4.jpg" alt="">
-              <h4>Amita Ratu Osswald</h4>
-              <span>Member</span>
-              <p>
-              Mengklaim Gelar Sarjana dalam Humor, Magister dalam Mengeluh
-              </p>
-              <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
       </div>
-    </section><!-- End About Us Section -->
+      @endforeach
+    </div>
+
+  </div>
+</section>
+<!-- End About Us Section -->
 
 @include('contact');
 

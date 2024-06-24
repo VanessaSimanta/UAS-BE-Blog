@@ -7,6 +7,7 @@ use App\Models\contact;
 use App\Models\menu;
 use App\Models\AboutUs;
 use App\Models\home;
+use App\Models\testimonies;
 
 
 class DataController extends Controller
@@ -17,8 +18,9 @@ class DataController extends Controller
         $menu = menu::all();
         $AboutUs = AboutUs::all();
         $home = home::all();
+        $testimonies = testimonies::all();
         
-        return view('welcome', ['data' => $data, 'menu' => $menu, 'about_us' => $AboutUs, 'home' => $home]);
+        return view('welcome', ['data' => $data, 'menu' => $menu, 'about_us' => $AboutUs, 'home' => $home, 'testimonies' => $testimonies]);
     }
 
     public function getKopiInspirasi(Request $req)
