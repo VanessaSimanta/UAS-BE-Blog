@@ -95,53 +95,34 @@
 
   <main id="main">
 
-    <!-- ======= testimonies ======= -->
-    <section id="testimonies" class="testimonies">
-      <div class="container">
 
+  <!-- ======= testimonies ======= -->
+<section id="testimonies" class="testimonies">
+    <div class="container">
         <div class="row no-gutters">
-          <div class="col-lg-4 col-md-6">
-            <div class="icon-box">
-              <h4 class="title"><a href="">Putri Natania</a></h4>
-              <div class = "rating">
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star"></i>
-              <p class="description">Matcha Latte nya enakkkk, aku sering banget langganan disini</p>
-            </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="icon-box">
-            <h4 class="title"><a href="">Aurlicia Felis</a></h4>
-              <div class = "rating">
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-              <p class="description">Kopi nya aku suka bgttt, sediain stok lebih banyak dong</p>
-            </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="icon-box">
-            <h4 class="title"><a href="">Steven Antonio</a></h4>
-              <div class = "rating">
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-              <p class="description">Aku sering lewat tapi baru nyoba sekali karena penasaran, ternyata enakk pol. Next bakal beli lagi</p>
-            </div>
-          </div>
+            @foreach ($testimonies as $row)
+                <div class="col-lg-4 col-md-6">
+                    <div class="icon-box">
+                        <h4 class="title"><a href="#">{{ $row->nama }}</a></h4>
+                        <div class="rating">
+                            @for ($i = 0; $i < 5; $i++)
+                                @if ($i < $row->rating)
+                                    <i class="bi bi-star-fill"></i>
+                                @else
+                                    <i class="bi bi-star"></i>
+                                @endif
+                            @endfor 
+                        </div>
+                        <p class="description">{{ $row->comment }}</p>
+                    </div>
+                </div>
+            @endforeach
         </div>
+    </div>
+</section>
+<!-- End testimonies -->
 
-      </div>
-    </section><!-- End testimonies -->
+   
 
     <!-- ======= Menu Section ======= -->
     <section id="menu" class="menu">

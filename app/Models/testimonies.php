@@ -8,6 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class testimonies extends Model
 {
     use HasFactory;
+
     protected $table = 'testimonies';
+    protected $fillable = ['nama', 'rating', 'comment'];
     public $timestamps= false;
 }

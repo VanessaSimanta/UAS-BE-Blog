@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('testimonies', function (Blueprint $table){
             $table->integerIncrements('id')->primary();
             $table->string('nama', 50);
-            $table->string('rating', 5);
+            $table->integer('rating', 5);
             $table->string('comment', 500);
         });
     }
