@@ -8,7 +8,7 @@ use App\Models\menu;
 use App\Models\AboutUs;
 use App\Models\home;
 use App\Models\testimonies;
-
+use App\Models\myod;
 
 class DataController extends Controller
 {
@@ -19,8 +19,9 @@ class DataController extends Controller
         $AboutUs = AboutUs::all();
         $home = home::all();
         $testimonies = testimonies::all();
+        $myod = myod::all();
         
-        return view('welcome', ['data' => $data, 'menu' => $menu, 'about_us' => $AboutUs, 'home' => $home, 'testimonies' => $testimonies]);
+        return view('welcome', ['data' => $data, 'menu' => $menu, 'about_us' => $AboutUs, 'home' => $home, 'testimonies' => $testimonies, 'myod' => $myod]);
     }
 
     public function getKopiInspirasi(Request $req)
