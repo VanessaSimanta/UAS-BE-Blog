@@ -280,12 +280,6 @@
           <h4>{{ $row->name }}</h4>
           <span>{{ $row->role }}</span>
           <p>{{ $row->deskripsi }}</p>
-          <div class="social">
-            <a href="#"><i class="bi bi-twitter"></i></a>
-            <a href="#"><i class="bi bi-facebook"></i></a>
-            <a href="#"><i class="bi bi-instagram"></i></a>
-            <a href="#"><i class="bi bi-linkedin"></i></a>
-          </div>
         </div>
       </div>
       @endforeach
