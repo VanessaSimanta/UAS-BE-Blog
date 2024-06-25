@@ -11,10 +11,10 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('home', function (Blueprint $table) {
+        Schema::create('default', function (Blueprint $table) {
             $table->integerIncrements('id')->primary();
             $table->string('title', 50);
-            $table->string('description', 100);
+            $table->string('description', 500);
             $table->string('img_home', 500);
         });
     }
