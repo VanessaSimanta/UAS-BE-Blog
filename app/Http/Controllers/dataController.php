@@ -18,7 +18,7 @@ class DataController extends Controller
         $menu = menu::all();
         $AboutUs = AboutUs::all();
         $home = home::all();
-        $testimonies = testimonies::all();
+        $testimonies = testimonies::take(10)->simplePaginate(3);
         $myod = myod::all();
         
         return view('welcome', ['data' => $data, 'menu' => $menu, 'about_us' => $AboutUs, 'home' => $home, 'testimonies' => $testimonies, 'myod' => $myod]);
@@ -46,4 +46,9 @@ class DataController extends Controller
         }
         return view('make-your-own-drink', ['data' => $data, 'menu' => $menu, 'about_us' => $AboutUs, 'home' => $home, 'testimonies' => $testimonies, 'myodData' => $myodData, 'parameter' => $endpoint]);
     }
+
+    public function testimoniesInput(Request $req)
+{
+    return view('testimonies');
+}
 }

@@ -48,40 +48,19 @@
       <div class="carousel-inner" role="listbox">
 
         <!-- Slide 1 -->
-        <div class="carousel-item active" style="background-image: url(assets/img/slide/customer.jpeg)">
+         @foreach ($home as $row)
+        <div class="carousel-item active" style="background-image: url({{$row->img_home}})">
           <div class="carousel-container">
             <div class="container">
-              <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Alleyway Muse</span></h2>
-              <p class="animate__animated animate__fadeInUp">Make your day beautiful with some coffee at Alleyway Muse.</p>
+              <h2 class="animate__animated animate__fadeInDown">{{$row->title}}</h2>
+              <p class="animate__animated animate__fadeInUp">{{$row->description}}.</p>
               <a href="#testimonies" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
             </div>
           </div>
         </div>
+        @endforeach
 
-        <!-- Slide 2 -->
-        <div class="carousel-item" style="background-image: url(assets/img/slide/coffee.jpeg)">
-          <div class="carousel-container">
-            <div class="container">
-              <h2 class="animate__animated animate__fadeInDown">Check out our menu! What would be your favorite?</h2>
-              <p class="animate__animated animate__fadeInUp">At Alleyway Muse, our dream is to serve high quality coffee, made with the freshest local ingredients to customers across Indonesia, and the rest of the world. </p>
-              <a href="#menu" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Slide 3 -->
-        <div class="carousel-item" style="background-image: url(assets/img/slide/noncoffee.jpeg)">
-          <div class="carousel-container">
-            <div class="container">
-              <h2 class="animate__animated animate__fadeInDown">Not a fan of coffee?</h2>
-              <p class="animate__animated animate__fadeInUp">Don't worry, we also have non-coffee menus too! Such as matcha latte, red velvet latte, and so many more! Go check it out now!.</p>
-              <a href="#menu" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
+        
       <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
         <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
       </a>
@@ -97,7 +76,7 @@
 
 
   <!-- ======= testimonies ======= -->
-<section id="testimonies" class="testimonies">
+  <section id="testimonies" class="testimonies">
     <div class="container">
         <div class="row no-gutters">
             @foreach ($testimonies as $row)
@@ -118,11 +97,12 @@
                 </div>
             @endforeach
         </div>
+        <div class="d-flex justify-content-center">
+            {{ $testimonies->links() }} <!-- Menambahkan pagination links -->
+        </div> 
     </div>
 </section>
-<!-- End testimonies -->
-
-   
+<!-- End Testimonies Section -->
 
     <!-- ======= Menu Section ======= -->
     <section id="menu" class="menu">
@@ -145,6 +125,17 @@
 
       </div>
     </section><!-- End Menu Section -->
+
+<section id="addTesti" class="addTesti">
+    <div class="container">
+      <div class="d-flex flex-column align-items-center my-4 centered-heading">
+        <br>
+         <h4>Have You Tried Our Drinks?</h4>
+          <a href="{{ url('/post-comment') }}" class="btn btn-info" role="button">Add Your Testimonies Here !</a>
+          <br>
+      </div>
+    </div>
+</section>
 
 
     <!-- ======= Make Your Own Drink Section ======= -->
@@ -208,12 +199,6 @@
           <h4>{{ $row->name }}</h4>
           <span>{{ $row->role }}</span>
           <p>{{ $row->deskripsi }}</p>
-          <div class="social">
-            <a href="#"><i class="bi bi-twitter"></i></a>
-            <a href="#"><i class="bi bi-facebook"></i></a>
-            <a href="#"><i class="bi bi-instagram"></i></a>
-            <a href="#"><i class="bi bi-linkedin"></i></a>
-          </div>
         </div>
       </div>
       @endforeach
