@@ -118,9 +118,16 @@
                 </div>
             @endforeach
         </div>
+        <div class="d-flex justify-content-center">
+            {{ $testimonies->links() }} <!-- Menambahkan pagination links -->
+        </div> 
+        <a href="{{ url('/post-comment') }}" class="btn btn-info" role="button">Add Your Testimonies</a>
     </div>
 </section>
 <!-- End testimonies -->
+
+
+
 
    
 
