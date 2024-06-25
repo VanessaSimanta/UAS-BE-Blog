@@ -168,7 +168,7 @@
 
     <div class="row portfolio-container">
       @foreach ($myod as $row)
-        <div class="col-lg-4 col-md-6 content-item portfolio-wrap">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-coffee">
           <img src="{{ $row->img_menu }}" class="img-fluid" alt="">
           <div class="portfolio-info">
             <h4>{{ $row->header }}</h4>
