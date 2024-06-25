@@ -18,7 +18,7 @@ class DataController extends Controller
         $menu = menu::all();
         $AboutUs = AboutUs::all();
         $home = home::all();
-        $testimonies = testimonies::all();
+        $testimonies = testimonies::simplePaginate(3);
         
         return view('welcome', ['data' => $data, 'menu' => $menu, 'about_us' => $AboutUs, 'home' => $home, 'testimonies' => $testimonies]);
     }
@@ -38,4 +38,9 @@ class DataController extends Controller
     {
         return view('make-your-own-drink/caramelMacchiato');
     }
+
+    public function testimoniesInput(Request $req)
+{
+    return view('testimonies');
+}
 }
