@@ -11,7 +11,7 @@
     <section id="post-comment" class="post-comment">
         <div class="container">
             <div class="title text-center">
-                <h2>Tuliskan Ulasan Anda</h2>
+                <h2>Tuliskan Testimoni Anda</h2>
             </div>
             <form id="commentForm" action="{{ route('post.comment') }}" method="POST">
                 @csrf
@@ -30,11 +30,11 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="comment">Ulasan</label>
+                    <label for="comment">Kesan dan Pesan</label>
                     <textarea id="comment" name="comment" class="form-control" rows="4" required></textarea>
                 </div>
                 <div class="text-center">
-                    <button type="submit" class="btn btn-primary">Kirim Ulasan</button>
+                    <button type="submit" class="btn btn-primary">Kirim Testimoni</button>
                 </div>
             </form>
         </div>
