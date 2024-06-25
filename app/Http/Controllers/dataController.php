@@ -24,19 +24,29 @@ class DataController extends Controller
         return view('welcome', ['data' => $data, 'menu' => $menu, 'about_us' => $AboutUs, 'home' => $home, 'testimonies' => $testimonies, 'myod' => $myod]);
     }
 
-    public function getKopiInspirasi(Request $req)
+    public function getMYOD (Request $req, ?string $endpoint = null)
     {
         $data = contact::all();
-        return view('make-your-own-drink/kopiInspirasi', ['data' => $data]);
-    }
+        $menu = menu::all();
+        $AboutUs = AboutUs::all();
+        $home = home::all();
+        $testimonies = testimonies::all();
+        // $myod = myod::all();
 
-    public function getMatchaLatte(Request $req)
-    {
-        return view('make-your-own-drink/matchaLatte');
-    }
-
-    public function getCaramelMacchiato(Request $req)
-    {
-        return view('make-your-own-drink/caramelMacchiato');
+        $endpoint = myod::all();
+        foreach ($endpoint as $row) {
+        $e = new \stdClass();
+        // $e->id = $endpoint->id;
+        // $e->endpoint = $endpoint->endpoint;
+        $e->type = $row->type;
+        $e->header = $row->header;
+        $e->img_menu = $row->img_menu;
+        $e->decs = $row->decs;
+        
+        $endpoint = $e;
+        $myodData = array();
+        $myodData[] = $endpoint;
+        }
+        return view('make-your-own-drink', ['data' => $data, 'menu' => $menu, 'about_us' => $AboutUs, 'home' => $home, 'testimonies' => $testimonies, 'myodData' => $myodData, ]);
     }
 }

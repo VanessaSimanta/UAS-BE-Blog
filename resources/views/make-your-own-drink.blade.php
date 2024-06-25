@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
+@foreach ($myodData as $row)
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Alleyway Muse - Homepage</title>
+  <title>{{ $row->header}} Recipe</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -38,7 +38,7 @@
 
 <body>
 @include('header');
-
+<h1> {{ $row->header }}</h1>
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -146,51 +146,6 @@
       </div>
     </section><!-- End Menu Section -->
 
-
-    <!-- ======= Make Your Own Drink Section ======= -->
-  <section id="yourDrink" class="yourDrink">
-    <div class="container">
-
-      <div class="section-title">
-        <h2>Make Your Own Drink</h2>
-        <p>Nikmati kopi favoritmu, buatanmu!</p>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-12 d-flex justify-content-center">
-          <ul id="portfolio-flters">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-coffee">Coffee</li>
-            <li data-filter=".filter-non-coffee">Non-Coffee</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="row portfolio-container">
-      @foreach ($myod as $row)
-        <div class="col-lg-4 col-md-6 portfolio-item filter-{{ $row->type }}">
-          <div class="portfolio-wrap">
-              <a href='/make-your-own-drink/{{ $row->endpoint }}'> 
-              <img src="{{ $row->img_menu }}" class="img-fluid" alt="" height="100" width="1000">
-              </a>
-              <div class="portfolio-info">
-                <h4>{{ $row->header }}</h4>
-                <p>{{ $row->decs }}</p>
-                <div class="portfolio-links">
-                  <a href="{{ $row->img_menu }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1">
-                  <i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details">
-                  <i class="bx bx-link"></i></a>
-                </div>  <!-- Close portfolio-link -->
-              </div> <!-- Close portfolio-info -->
-          </div> <!-- Close portfolio-wrap -->
-
-        </div> <!-- Close filter -->
-        @endforeach
-      </div> <!-- CLose portfolio container -->
-    </div> <!-- Close section container -->
-  </section><!-- End Make Your Own Drink Section -->
-
     <!-- ======= About Us Section ======= -->
     <section id="aboutUs" class="aboutUs section-bg">
   <div class="container">
@@ -242,5 +197,5 @@
   <script src="assets/js/main.js"></script>
 
 </body>
-
+@endforeach
 </html>

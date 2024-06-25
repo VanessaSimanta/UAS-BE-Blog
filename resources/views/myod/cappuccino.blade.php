@@ -31,6 +31,7 @@
 <body>
 @include('header');
   <main> 
+    <h1>Cappuccino</h1>
 
     <!-- ======= Make Your Own Drink Section ======= -->
     <section id="yourDrink" class="yourDrink">
