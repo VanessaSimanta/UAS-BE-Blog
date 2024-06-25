@@ -18,7 +18,7 @@ class DataController extends Controller
         $menu = menu::all();
         $AboutUs = AboutUs::all();
         $home = home::all();
-        $testimonies = testimonies::simplePaginate(3);
+        $testimonies = testimonies::take(10)->simplePaginate(3);
         
         return view('welcome', ['data' => $data, 'menu' => $menu, 'about_us' => $AboutUs, 'home' => $home, 'testimonies' => $testimonies]);
     }
