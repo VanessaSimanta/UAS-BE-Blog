@@ -39,7 +39,7 @@
 <body>
 @include('header');
 
-  <!-- ======= Hero Section ======= -->
+<!-- ======= Hero Section ======= -->
   <section id="hero">
     <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
@@ -70,75 +70,78 @@
       </a>
 
     </div>
-  </section><!-- End Hero -->
+  </section>
+<!-- End Hero -->
 
   <main id="main">
 
 
-  <!-- ======= testimonies ======= -->
+<!-- ======= Testimonies Section ======= -->
   <section id="testimonies" class="testimonies">
     <div class="container">
-        <div class="row no-gutters">
-            @foreach ($testimonies as $row)
-                <div class="col-lg-4 col-md-6">
-                    <div class="icon-box">
-                        <h4 class="title"><a href="#">{{ $row->nama }}</a></h4>
-                        <div class="rating">
-                            @for ($i = 0; $i < 5; $i++)
-                                @if ($i < $row->rating)
-                                    <i class="bi bi-star-fill"></i>
-                                @else
-                                    <i class="bi bi-star"></i>
-                                @endif
-                            @endfor 
-                        </div>
-                        <p class="description">{{ $row->comment }}</p>
-                    </div>
-                </div>
-            @endforeach
-        </div>
-        <div class="d-flex justify-content-center">
-            {{ $testimonies->links() }} <!-- Menambahkan pagination links -->
-        </div> 
+      <div class="row no-gutters">
+        @foreach ($testimonies as $row)
+          <div class="col-lg-4 col-md-6">
+            <div class="icon-box">
+              <h4 class="title"><a href="#">{{ $row->nama }}</a></h4>
+              <div class="rating">
+                @for ($i = 0; $i < 5; $i++)
+                  @if ($i < $row->rating)
+                    <i class="bi bi-star-fill"></i>
+                  @else
+                   <i class="bi bi-star"></i>
+                  @endif
+                  @endfor 
+              </div>
+              <p class="description">{{ $row->comment }}</p>
+            </div>
+          </div>
+        @endforeach
+      </div>
+      <div class="d-flex justify-content-center">
+        {{ $testimonies->links() }} <!-- Menambahkan pagination links -->
+      </div> 
     </div>
-</section>
+  </section>
 <!-- End Testimonies Section -->
 
-    <!-- ======= Menu Section ======= -->
-    <section id="menu" class="menu">
-      <div class="container">
-      <br>
-      <br>
+<!-- ======= Menu Section ======= -->
+  <section id="menu" class="menu">
+    <div class="container">
+      <br> <br>
       <div class="section-title">
-          <h2>Our Menu</h2>
-        </div>
-
-        <div class="row no-gutters">
-        @foreach  ($menu as $row)
-          <div class="col-lg-4 col-md-6 content-item">
-            <h4>{{ $row -> header }} </h4>
-            <img src="{{ $row -> img_menu }}" class="img-fluid" alt="">
-            <p>{{ $row-> decs }}
-                </p>
-          </div>
-          @endforeach
-
+        <h2>Our Menu</h2>
       </div>
-    </section><!-- End Menu Section -->
 
-<section id="addTesti" class="addTesti">
+      <div class="row no-gutters">
+        @foreach  ($menu as $row)
+        <div class="col-lg-4 col-md-6 content-item">
+          <h4>{{ $row -> header }} </h4>
+          <img src="{{ $row -> img_menu }}" class="img-fluid" alt="">
+          <p>{{ $row-> decs }}
+            </p>
+        </div>
+        @endforeach
+      </div>
+    </div>
+  </section>
+<!-- End Menu Section -->
+
+<!-- ======= Add Testimony Section ======= -->
+  <section id="addTesti" class="addTesti">
     <div class="container">
       <div class="d-flex flex-column align-items-center my-4 centered-heading">
         <br>
-         <h4>Have You Tried Our Drinks?</h4>
-          <a href="{{ url('/post-comment') }}" class="btn btn-info" role="button">Add Your Testimonies Here !</a>
-          <br>
+        <h4>Have You Tried Our Drinks?</h4>
+        <a href="{{ url('/post-comment') }}" class="btn btn-info" role="button">Add Your Testimonies Here !</a>
+        <br>
       </div>
     </div>
-</section>
+  </section>
+<!-- End Add Testimony Section -->
 
 
-    <!-- ======= Make Your Own Drink Section ======= -->
+<!-- ======= Make Your Own Drink Section ======= -->
   <section id="yourDrink" class="yourDrink">
     <div class="container">
 
@@ -158,11 +161,11 @@
       </div>
 
       <div class="row portfolio-container">
-      @foreach ($myod as $row)
-        <div class="col-lg-4 col-md-6 portfolio-item filter-{{ $row->type }}">
-          <div class="portfolio-wrap">
+        @foreach ($myod as $row)
+          <div class="col-lg-4 col-md-6 portfolio-item filter-{{ $row->type }}">
+            <div class="portfolio-wrap">
               <a href='/make-your-own-drink/{{ $row->endpoint }}'> 
-              <img src="{{ $row->img_menu }}" class="img-fluid" alt="" height="100" width="1000">
+                <img src="{{ $row->img_menu }}" class="img-fluid" alt="" height="100" width="1000">
               </a>
               <div class="portfolio-info">
                 <h4>{{ $row->header }}</h4>
@@ -172,46 +175,44 @@
                   <i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details">
                   <i class="bx bx-link"></i></a>
-                </div>  <!-- Close portfolio-link -->
-              </div> <!-- Close portfolio-info -->
-          </div> <!-- Close portfolio-wrap -->
-
-        </div> <!-- Close filter -->
+                </div>
+              </div>
+            </div>
+          </div>
         @endforeach
-      </div> <!-- CLose portfolio container -->
-    </div> <!-- Close section container -->
-  </section><!-- End Make Your Own Drink Section -->
-
-    <!-- ======= About Us Section ======= -->
-    <section id="aboutUs" class="aboutUs section-bg">
-  <div class="container">
-
-    <div class="section-title">
-      <h2>About Us</h2>
-      <p>Alleyway Muse, a unique space where creativity, community, and comfort come together. Located in the heart of the city, Alleyway Muse is your go-to destination for inspiration and relaxation.</p>
-    </div>
-    
-    <div class="row">
-      @foreach ($about_us as $row)
-      <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-        <div class="member">
-          <img src="{{ $row->img_team }}" alt="">
-          <h4>{{ $row->name }}</h4>
-          <span>{{ $row->role }}</span>
-          <p>{{ $row->deskripsi }}</p>
-        </div>
       </div>
-      @endforeach
     </div>
+  </section>
+<!-- End Make Your Own Drink Section -->
 
-  </div>
-</section>
+<!-- ======= About Us Section ======= -->
+  <section id="aboutUs" class="aboutUs section-bg">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>About Us</h2>
+        <p>Alleyway Muse, a unique space where creativity, community, and comfort come together. Located in the heart of the city, Alleyway Muse is your go-to destination for inspiration and relaxation.</p>
+      </div>
+
+      <div class="row">
+        @foreach ($about_us as $row)
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="{{ $row->img_team }}" alt="">
+              <h4>{{ $row->name }}</h4>
+              <span>{{ $row->role }}</span>
+              <p>{{ $row->deskripsi }}</p>
+            </div>
+          </div>
+        @endforeach
+      </div>
+
+    </div>
+  </section>
 <!-- End About Us Section -->
 
 @include('contact');
-
-  </main><!-- End #main -->
-
+</main>
 @include('footer');
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
