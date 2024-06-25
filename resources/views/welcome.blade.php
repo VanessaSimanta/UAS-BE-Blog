@@ -97,7 +97,7 @@
 
 
   <!-- ======= testimonies ======= -->
-<section id="testimonies" class="testimonies">
+  <section id="testimonies" class="testimonies">
     <div class="container">
         <div class="row no-gutters">
             @foreach ($testimonies as $row)
@@ -121,15 +121,9 @@
         <div class="d-flex justify-content-center">
             {{ $testimonies->links() }} <!-- Menambahkan pagination links -->
         </div> 
-        <a href="{{ url('/post-comment') }}" class="btn btn-info" role="button">Add Your Testimonies</a>
     </div>
 </section>
-<!-- End testimonies -->
-
-
-
-
-   
+<!-- End Testimonies Section -->
 
     <!-- ======= Menu Section ======= -->
     <section id="menu" class="menu">
@@ -152,6 +146,17 @@
 
       </div>
     </section><!-- End Menu Section -->
+
+<section id="addTesti" class="addTesti">
+    <div class="container">
+      <div class="d-flex flex-column align-items-center my-4 centered-heading">
+        <br>
+         <h4>Have You Tried Our Drinks?</h4>
+          <a href="{{ url('/post-comment') }}" class="btn btn-info" role="button">Add Your Testimonies Here !</a>
+          <br>
+      </div>
+    </div>
+</section>
 
 
     <!-- ======= Make Your Own Drink Section ======= -->
