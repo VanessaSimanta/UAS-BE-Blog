@@ -19,12 +19,12 @@ return new class extends Migration
             $table->string('img_menu', 500);
             $table->string('decs', 700);
 
-            $table->string('Step 1', 700);
-            $table->string('Step 2', 700);
-            $table->string('Step 3', 700);
-            $table->string('Step 4', 700);
-            $table->string('Step 5', 700);
-            $table->string('Enjoy', 700);
+            $table->string('satu', 700);
+            $table->string('dua', 700);
+            $table->string('tiga', 700);
+            $table->string('empat', 700);
+            $table->string('lima', 700);
+            $table->string('enjoy', 700);
 
         });  }
 

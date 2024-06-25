@@ -32,27 +32,32 @@
 </head>
 <body>
 @include('header')
-<h1> {{ $row->header }}</h1>
    
     <!-- ======= Drinks Section ======= -->
     <section id="drinks" class="drinks">
         <div class="container">
             <br>
-            <div class="section-title">
-                <h2>Choco Malt Recipe</h2>
-            </div>
-                    <h4 class="ingridients">What You'll Need </h4>
-                    {{-- <img src="{{ asset($row->img_menu) }}" class="img-fluid" alt=""> --}}
-                    <ul>
-                        <li>4 Tbsp white chocolate chips or chopped white chocolate</li>
-                        <li>1 shot Starbucks® Espresso Roast</li>
-                        <li>1 cup 2% milk</li>
-                        <li>Whipped Cream</li>
-                      </ul>
-                      <div class="step">
-                    <h4> STEP 01 </h4>
-                    <p>blabla</p>
-                      </div>
+    @foreach ($myodData as $row)
+    <div class="section-title">
+        <h2>{{ $row->header }} Recipe</h2>
+    </div>
+    <img src="{{ asset($row->img_menu) }}" class="center" alt="">
+    <div class="step">
+        <h4> STEP 01 </h4>
+        <p>{{ $row->satu }}</p>
+        <h4> STEP 02 </h4>
+        <p>{{ $row->dua }}</p>
+        <h4> STEP 03 </h4>
+        <p>{{ $row->tiga }}</p>
+        <h4> STEP 04 </h4>
+        <p>{{ $row->empat }}</p>
+        <h4> STEP 05 </h4>
+        <p>{{ $row->lima }}</p>
+        <h4> Enjoy </h4>
+        <p>{{ $row->enjoy }}</p>
+    </div>
+    @endforeach
+
         </div>
     </section><!-- End Menu Section -->
 @include('footer')
