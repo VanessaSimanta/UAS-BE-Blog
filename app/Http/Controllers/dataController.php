@@ -28,11 +28,6 @@ class DataController extends Controller
     public function getMYOD(Request $req, ?string $endpoint = null)
 {
     $data = contact::all();
-    $menu = menu::all();
-    $AboutUs = AboutUs::all();
-    $home = home::all();
-    $testimonies = testimonies::all();
-
     $endpointz = myod::where('endpoint', $endpoint)->get();;
     $myodData = array(); 
 
@@ -54,10 +49,6 @@ class DataController extends Controller
 
     return view('make-your-own-drink', [
         'data' => $data,
-        'menu' => $menu,
-        'about_us' => $AboutUs,
-        'home' => $home,
-        'testimonies' => $testimonies,
         'myodData' => $myodData,
         'parameter' => $endpoint
     ]);
